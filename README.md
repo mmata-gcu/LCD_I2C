@@ -1,6 +1,7 @@
 # LCD_I2C
-Uses an I2C LCD screen (Grove LCD RGB colour background, 2 display lines) to show the assigned IP address and the status of the ROS Master node.
-This is a small C program intended to be run at start up in the robot's main computer running Linux (before ROS is launched). The main computer used needs to provide I2C pins (for instance a Nvidia Jetson TX1, Raspberry Pi, etc).
+Uses an I2C LCD screen [Grove LCD RGB colour background, 2x16 display lines](https://www.seeedstudio.com/Grove-LCD-RGB-Backlight.html) to show the assigned IP address and the status of the ROS Master node.
+
+This is a small C program intended to be run at start up in the robot's main computer running Linux (before ROS is launched). Obviously the main computer used used needs to provide I2C pins (like a Nvidia Jetson TX1, Raspberry Pi, etc).
 
 It is intended to facilitate the headless use of the robot on a DHCP WiFi, and/or to select one particular robot if several of them are around. Knowing the robot's IP allows remote connections to it and/or joining another computer to the robot's ROS master.
 
