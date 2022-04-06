@@ -31,3 +31,5 @@ To provide I2C access for the default user (_my_user_ in this example, please up
 Note: changes won't be effective until restarting the computer
 
 To autostart the _lcd_i2c_ program when the computer boots up, open the _'Startup applications'_ application (or equivalent for your Linux version) and create a new entry, selecting the executable file
+
+Finally, you might be interested in a ROS node that makes use of the LCD screen to display custom messages/background colour from a ROS topic, if so please check this related project [LCD_I2C_ROSnode](https://github.com/mmata-gcu/LCD_I2C_ROSnode).
